@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <title>Blackjack</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+
+  <body>
+
+    <div class="container mt-3">
+      <h1>Blackjack Simulation</h1>
+      <h2 id="game-result"></h2>
+      <div class="button"><a class="ms-5 btn btn-primary btn-primary" href="#" id="start-game">START NEW GAME</a></div>
+      <div class="row flex justify-content-between">
+        <div class="col-sm-6">
+          <div class="d-flex">
+            <h2>You</h2>
+            <p><a class="ms-3 btn btn-primary btn-primary" href="#" id="take-card">Take Another Card</a></p>
+            <p><a class="ms-3 btn btn-primary btn-danger" href="#" id="user_hit">Stand</a></p>
+          </div>
+          <h3>POINTS: <span id="user-points"></span></h3>
+          <div id="user_cards" class="mt-5">
+            <img src="images/face_down.png">
+            <img src="images/face_down.png">
+          </div>
+        </div>
+        <div class="col-sm-6">
+          <h2>Dealer</h2>
+          <h3>POINTS: <span id="dealer-points"></span></h3>
+          <div id="dealer_cards" class="mt-5">
+            <img src="images/face_down.png">
+            <img src="images/face_down.png">
+          </div>
+        </div>
+      </div>
+      <div class="row flex justify-content-between" id="score-board">
+        <h2>Scoreboard</h2>
+        <div class="col-sm-4">
+          <h4  class="mt-4">You: <span id="user-score" class="score"></span></h4>
+        </div>
+        <div class="col-sm-4">
+          <h4 class="mt-4">Dealer: <span id="dealer-score" class="score"></span></h4>
+        </div>
+        <div class="col-sm-4">
+          <h4 class="mt-4">Ties: <span id="ties" class="score"></span></h4>
+        </div>
+      </div>
+      <div class="button"><a class="ms-3 btn btn-primary btn-primary" href="#" id="reset-game">RESET SCOREBOARD</a></div>
+    </div> 
+    </div>
+  <script src="blackjack.js"></script>
+  </body>
+</html>
