@@ -1,0 +1,326 @@
+body{
+    font-family:'Raleway', sans-serif;
+    margin: auto;
+    text-align:center;
+    background: linear-gradient(rgba(255,255,255,.5), rgba(255,255,255,.5)), url("https://images.immediate.co.uk/production/volatile/sites/4/2022/07/JWST-image-showing-eight-point-stars-a6d61b1.jpg");
+    background-size: cover;
+}
+
+body::before{
+    content: "";
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+}
+  
+
+#header{
+    display:flex;
+    justify-content: center;
+    margin:auto;
+    margin-bottom:2em;
+    background-color: rgba(222, 216, 216, 0.633);
+    width:1475px;
+    border-style: solid;
+    border-width: 0.5em;
+    border-color: rgb(131, 161, 191);
+    box-shadow: 5px 10px rgb(95, 95, 95);
+}
+
+@keyframes color-change-lose {
+    0% { color: rgba(0, 0, 0, 0.643); }
+    50% { color: rgb(77, 106, 135);}
+    100% { color: rgba(0, 0, 0, 0.643);}
+  }
+
+#header h1{
+    color:rgba(0, 0, 0, 0.643);
+    animation: color-change-lose 2s infinite;
+}
+
+#header h2{
+    color:black;
+}
+
+#wookie{
+    width:10%;
+    flex-basis:10%;
+}
+
+#main-header{
+    display:flex;
+    flex-basis:20%;
+}
+
+#sub-header{
+    flex-basis:50%;
+    text-shadow: 1px 2px gray;
+}
+
+h1{
+    font-family: 'Poller One', cursive;
+    font-size: 58px;
+}
+
+h3{
+    font-family: 'Poller One', cursive;
+    margin:0.5em;
+    font-size:32px;
+    text-align:center;
+}
+
+#picture-of-the-day{
+    display:flex;
+    height:60%;
+    column-gap: 2em;
+}
+
+.pod{
+    flex-basis: 60%;
+    width: 60%;
+}
+
+.description{
+    flex-basis:35%;
+    text-align: left;
+    display:flex;
+    align-items: center;
+    font-weight: 500;
+    font-size:18px;
+
+}
+
+.pod-title{
+    font-family: 'Poller One', cursive;
+}
+
+#closest-asteroid{
+    border-style:solid;
+    border-width: 1.5em;
+    margin:1.5em;
+    background-color: rgba(196, 194, 194, 0.633);
+    display:flex;
+    flex-direction: column;
+    height:800px;
+}
+
+.closest-asteroid-name{
+    margin-top: 1.5em;
+}
+
+#asteroid-header{
+    flex-basis:20%;
+}
+#closest-asteroid p {
+    font-size: 30px;
+}
+
+#asteroid-details{
+    flex-basis:40%;
+    display:flex;
+    column-gap:2em;
+    text-align: center;
+    justify-content: center;
+    padding:1em;
+    margin-top:2.5em;
+}
+
+#asteroid-pic{
+    flex-basis: 30%;
+    padding:0.5em;
+    width:380px;
+    height:310px;
+    border-radius: 50%;
+    box-shadow: 5px 10px rgb(131, 161, 191);
+}
+
+#asteroid-dt{
+    flex-basis:40%;
+    align-items: center;
+}
+
+.asteroid-titles{
+    font-weight: 800;
+}
+
+.info{
+    font-weight: 400;
+    font-size: 28px;
+}
+
+#people-in-space{
+    border-style:solid;
+    border-width: 1.5em;
+    background-color: rgba(196, 194, 194, 0.633);
+    margin:1.5em;
+    justify-content: center;
+    height:800px;
+}
+
+#character-space{
+    width:500px;
+    margin:3em;
+    margin-left:4.5em;
+    text-align:center;
+}
+
+#people-in-space p{
+    margin:1em;
+}
+
+.person{
+    width:20%;
+}
+
+#mid-section{
+    display:flex;
+    margin-left:0.5em;
+    margin-right:0.5em;
+}
+
+#my-button{
+    margin:2em;
+    background-color: rgb(108, 107, 107);
+    color:white;
+    padding:1em;
+    font-weight: 600;
+    border-radius: 15px 15px;
+}
+
+#spacex{
+    border-style:solid;
+    border-width: 1.5em;
+    margin:auto;
+    background-color: rgba(196, 194, 194, 0.633);
+    width:1470px;
+    height: 500px;
+    display:flex;
+    flex-direction: row;
+    text-align:left;
+    padding:1em;
+}
+
+#spacex h3{
+    text-align: center;
+}
+
+#launch-info{
+    flex-basis:40%;
+
+}
+
+#launch-info h3{
+    margin-bottom:2em;
+}
+
+#launch-crew{
+    flex-basis:35%;
+}
+
+#launch-crew h3{
+    text-align: left;
+    margin-left:2em;
+}
+
+.spacex-info{
+    font-weight: 800;
+    font-size: 28px;
+    margin-left:2em;
+}
+
+.spacex-desc{
+    font-weight: 400;
+    
+}
+
+#reddit-url{
+    font-weight: 400;
+    font-size:28px;
+    flex-basis:70%;
+    margin-top:0.5em;
+}
+
+#crew-list{
+    font-size:28px;
+    margin-top:3em;
+    margin-left:2em;
+}
+
+#pod{
+    border-style:solid;
+    border-width: 1.5em;
+    margin:auto;
+    background-color: rgba(196, 194, 194, 0.633);
+    width:1470px;
+    display:flex;
+    flex-direction: column;
+    text-align:left;
+    padding:1em;
+}
+
+#pod-title{
+    flex-basis:10%;
+    text-align:center;
+}
+
+#pod-container{
+    flex-basis:80%;
+    display:flex;
+}
+
+#pod-pic{
+    flex-basis:60%;
+    margin:1em;
+}
+
+#pod-pic img{
+    width:600px;
+    height:600px;
+    margin:auto;
+    display:flex;
+
+}
+
+#pod-desc{
+    flex-basis:40%;
+    margin:2em;
+}
+
+#pod-desc p{
+    font-size:20px;
+}
+
+#reddit-info{
+    display:flex;
+    flex-direction: row;
+    margin-left:2em;
+}
+
+#r2d2{
+    flex-basis:5%;
+    width: 30%;
+    padding:0.5em;
+}
+
+#map-container{
+    border-style:solid;
+    border-width: 1.5em;
+    margin:auto;
+    background-color: rgba(196, 194, 194, 0.633);
+    width:1470px;
+    height: 700px;
+    display:flex;
+    flex-direction: row;
+    text-align:left;
+    padding:1em;
+    margin:2em;
+    display:flex;
+    flex-direction: column;
+}
+
+#map {
+    flex-basis:90%;
+    height: 500px;
+}

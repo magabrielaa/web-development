@@ -1,0 +1,74 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Wookieleaks</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+      integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+      <link href="https://fonts.googleapis.com/css2?family=Poller+One&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.3/dist/leaflet.css" integrity="sha256-kLaT2GOSpHechhsozzB+flnD+zUyjE2LlfWPgU04xyI=" crossorigin="" />
+  <script src="https://unpkg.com/leaflet@1.9.3/dist/leaflet.js" integrity="sha256-WBkoXOwTeyKclOHuWtc+i2uENFpDZ9YPdf5Hf+D7ewM=" crossorigin=""></script>
+
+</head>
+<body id="body">
+  <div id="header">
+    <img id="wookie" src="https://img.icons8.com/color/12x/chewbacca.png">
+    <div id="header-text">
+      <h1 id="main-header">Wookieleaks</h1>
+      <h2 id="sub-header">The place for all things space</h2>
+    </div>
+  </div>
+  <div id="pod">
+    <h3 id="pod-title">NASA's Picture of the Day: </h3>
+    <div id="pod-container">
+      <div id="pod-pic"></div>
+      <div id="pod-desc"></div>
+    </div>
+  </div>
+  <div id="mid-section">
+    <div id="closest-asteroid">
+      <div id="asteroid-header">
+        <h3 id="asteroid">The closest asteroid to approach Earth is...</h3>
+        <div id="closest"> </div>
+      </div>
+      <div id="asteroid-details">
+        <div id="asteroid-dt">
+          <p id="when" class="asteroid-titles"> When?</p>
+          <p id="hazardous" class="asteroid-titles"> Possibly hazardous?</p>
+          <p id="diameter" class="asteroid-titles"> Estimated Diameter?</p>
+        </div>
+        <img id="asteroid-pic" src="https://insidethemagic.net/wp-content/uploads/2021/09/luke-skywalker-yelling-750x400.jpeg">
+      </div>
+    </div>
+    <div id="people-in-space">
+      <h3 id="asteroid">How many people are in space right now?</h3>
+      <button id="my-button" type="button">Click to find out!</button>
+      <div id="character-space"></div>
+    </div>
+  </div>
+  <div id="spacex">
+    <div id="launch-info">
+      <h3>SpaceX's Latest Launch</h3>
+      <div id="name" class="spacex-info">Name: </div>
+      <div id="date-launched" class="spacex-info">Date Launched: </div>
+      <div class="spacex-info" >Interested in more?</div>
+        <div id="reddit-info">
+          <img src="images/r2d2.png" id="r2d2">
+          <p id="reddit-url">Discuss with the Reddit community</p>
+        </div>
+    </div>
+    <div id="launch-crew">
+      <h3>Crew Members</h3>
+      <div id="crew-list"></div>
+    </div>
+  </div>
+  <div id="map-container">
+    <h3>Where over the world is the International Space Station?</h3>
+    <div id="map"></div>
+  </div>
+</body>
+<script src="space.js"></script>
+<script src="map.js"></script>
+</html>
