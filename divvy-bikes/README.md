@@ -1,5 +1,9 @@
 # Divvy Station Finder
 
+This repo contains a web application built with React that retrieves data from the Divvy Bikes API to display all Divvy stations. Additionally, the user can view the Divvy station closes to them, based on their GPS location:
+
+<img src="https://github.com/magabrielaa/web-development/blob/main/divvy-bikes/Divvy%20Bikes.gif" width="700" height="400" />
+
 ## Initial Setup
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
