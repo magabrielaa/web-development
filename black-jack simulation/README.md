@@ -2,7 +2,7 @@
 
 This project consists in the implementation of a simple version of a Blackjack simulation, with a scoreboard feature. The goal of the game is for the user to reach 21 points, or as close as possible, without going over 21. The scoreboard feature keeps track of how many games each player has won.  The scoreboard data is programmed to persist even if the user manually refreshes the page.
 
-* When a game is over, there is a button for the user to start a new game, but simply refreshing the page also starts a new game.
+When a game is over, there is a button for the user to start a new game, but simply refreshing the page also starts a new game.
 
 <img src="https://github.com/magabrielaa/web-development/blob/main/black-jack%20simulation/Black%20Jack%20Simulation.gif" width="1000" height="500" />
 
